@@ -3,8 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
-import { Routes, Route } from "react-router-dom";
-import Error from "./components/Error";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Search from "./components/Search";
 import MovieView from "./components/MovieView";
 import { useEffect, useState } from "react";
@@ -38,8 +37,7 @@ function App() {
           }
         />
         <Route path="/movie/:id" element={<MovieView />} />
-
-        <Route path="*" element={<Error />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
     </div>
