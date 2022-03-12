@@ -1,0 +1,38 @@
+.card{
+  width: 250px;
+  height: auto;
+  margin: 20px 5px;
+  background-color: #ecf8e5;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+}
+
+.card-img-top{
+  width: 100%;
+}
+
+.card-title{
+  padding-bottom: 30px;
+}
+
+#button{
+  position: absolute;
+  margin-top: 10px;
+  font-size: 14px;
+  left: 20px;
+  bottom: 10px;
+  background-color: #357571;
+  padding: 7px 15px 4px;
+  transition: 0.3s ease;
+  border: none;
+}
+
+#button:hover{
+  border: 1px solid #357571;
+  background-color: #fff;
+  color: #357571;
+}

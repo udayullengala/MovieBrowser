@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #ecf8e5;
+  padding: 10px 0px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  z-index: 999;
+}
+
+.navbar-brand {
+  font-size: 21px !important;
+  color: #347571 !important;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #347571 !important;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  margin-left: 20px;
+}
+
+.nav-link::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  left: 4px;
+  bottom: 8px;
+  background-color: #347571;
+  transition: 0.4s;
+}
+
+.nav-link:hover::after {
+  width: 80%;
+}

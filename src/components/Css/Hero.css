@@ -1,0 +1,60 @@
+.container-fluid{
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.hero-text{
+  z-index: 99;
+  color: #ffffff;
+  font-weight: 700;
+  opacity: 1;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.homeImg{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+
+.aboutImg{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.5;
+}
+
+.backDrop{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+@media (max-width: 499px) {
+  .container-fluid{
+    height: 20vh;
+  }
+  .hero-text {
+    font-size: 21px;
+}
+
+}

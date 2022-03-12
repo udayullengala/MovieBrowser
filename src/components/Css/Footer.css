@@ -1,0 +1,45 @@
+footer {
+  background-color: #ecf8e5;
+  padding: 25px 0px 30px 0px;
+}
+
+footer h4 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #347571;
+  margin: 20px 0px;
+}
+
+footer i {
+  margin: 5px;
+  color: #347571;
+}
+
+footer .about {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+footer .about a {
+  text-decoration: none;
+  padding-bottom: 10px;
+  color: #000;
+}
+
+footer .play {
+  border: 1px solid #347571;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 499px) {
+  p {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+footer h4 {
+  margin: 30px 0px;
+}
+}
